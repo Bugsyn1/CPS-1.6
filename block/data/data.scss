@@ -1,0 +1,33 @@
+:root{
+--swiper-theme-color:#B5B6BC;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap,4px);
+}
+.swiper-pagination-bullet{
+    width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,14px));
+    height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,14px));
+}
+
+.swiper-pagination-bullet{
+ background: var(--swiper-pagination-bullet-inactive-color,#DDDDDD);
+}
+
+
+body{
+    font-family: 'TT Lakes';
+    background-color: $background-color--white;
+}
+
+.container{
+    background-color:$bg-color;
+}
+
+.hide{
+    display: none;
+}
+.hidden{
+    display: none;
+}
+
